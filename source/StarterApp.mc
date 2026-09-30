@@ -2,12 +2,12 @@ import Toybox.Application;
 import Toybox.Lang;
 import Toybox.WatchUi;
 
-// ─────────────────────────────────────────────────────────────────────────────
+// -----------------------------------------------------------------------------
 // StarterApp: the entry point. Garmin starts here.
 //
 // You rarely need to touch this file. All the drawing happens in
 // StarterView.mc, which is the file to change (or ask Claude to change).
-// ─────────────────────────────────────────────────────────────────────────────
+// -----------------------------------------------------------------------------
 class StarterApp extends Application.AppBase {
 
     function initialize() {

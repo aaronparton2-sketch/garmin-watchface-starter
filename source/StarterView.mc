@@ -8,7 +8,7 @@ import Toybox.Time;
 import Toybox.Time.Gregorian;
 import Toybox.WatchUi;
 
-// ─────────────────────────────────────────────────────────────────────────────
+// -----------------------------------------------------------------------------
 // StarterView: everything you see on the watch face is drawn here.
 //
 // The watch calls onUpdate() about once a minute (every second for a moment
@@ -16,12 +16,12 @@ import Toybox.WatchUi;
 //
 //        DATE              <- top
 //        12:34             <- the big time
-//        ── accent line ──
+//        -- accent line --
 //   steps   battery   heart rate   <- bottom row
 //
 // Want something different? Tell Claude what you want to see and where.
 // Positions are fractions of the screen (0.5 = middle), so it fits any size.
-// ─────────────────────────────────────────────────────────────────────────────
+// -----------------------------------------------------------------------------
 class StarterView extends WatchUi.WatchFace {
 
     function initialize() {
