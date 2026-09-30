@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!--
+  manifest.xml: the watch face's ID card.
+  It tells Garmin what this app is (a watch face), which watches it runs on,
+  and what it's allowed to access.
+
+  🔴 Before you publish to the Connect IQ Store, give it YOUR OWN id.
+     Ask Claude: "generate a new UUID and put it in manifest.xml".
+-->
+<iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
+    <iq:application
+        entry="StarterApp"
+        id="755cb3b5-9dba-4048-8222-b9750464e2f3"
+        name="@Strings.AppName"
+        type="watchface"
+        launcherIcon="@Drawables.LauncherIcon"
+        minApiLevel="3.2.0">
+
+        <!-- The watches this builds for. Add yours if it isn't here:
+             ask Claude "add my <watch name> to the manifest". -->
+        <iq:products>
+            <iq:product id="fr165"/>
+            <iq:product id="fr255"/>
+            <iq:product id="fr265"/>
+            <iq:product id="fr955"/>
+            <iq:product id="fr965"/>
+            <iq:product id="fr970"/>
+            <iq:product id="fenix7"/>
+            <iq:product id="fenix7pro"/>
+            <iq:product id="fenix847mm"/>
+            <iq:product id="fenix8solar47mm"/>
+            <iq:product id="epix2pro47mm"/>
+            <iq:product id="venu3"/>
+            <iq:product id="vivoactive5"/>
+            <iq:product id="instinct3amoled45mm"/>
+        </iq:products>
+
+        <!-- Steps + heart rate need no special permission on a watch face.
+             Add "Communications" + "Background" only when you pull data
+             from the internet (see the SwellVision repo for how). -->
+        <iq:permissions/>
+
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>

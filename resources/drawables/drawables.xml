@@ -1,0 +1,4 @@
+<drawables>
+    <!-- The icon shown in the watch face list. Swap launcher_icon.png for your own. -->
+    <bitmap id="LauncherIcon" filename="launcher_icon.png"/>
+</drawables>

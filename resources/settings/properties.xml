@@ -1,0 +1,4 @@
+<properties>
+    <!-- Stored values. 0 = red, 1 = blue, 2 = green, 3 = orange. -->
+    <property id="accentColour" type="number">0</property>
+</properties>

@@ -1,0 +1,3 @@
+# monkey.jungle: build settings. You don't need to change this.
+# The compiler finds the code in source/ and the images/text in resources/ on its own.
+project.manifest = manifest.xml

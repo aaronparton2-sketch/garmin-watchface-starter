@@ -1,0 +1,11 @@
+<settings>
+    <!-- Shows up in the Connect IQ phone app so you can pick a colour. -->
+    <setting propertyKey="@Properties.accentColour" title="@Strings.AccentTitle">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Red</listEntry>
+            <listEntry value="1">@Strings.Blue</listEntry>
+            <listEntry value="2">@Strings.Green</listEntry>
+            <listEntry value="3">@Strings.Orange</listEntry>
+        </settingConfig>
+    </setting>
+</settings>

@@ -1,0 +1,9 @@
+<strings>
+    <!-- The name shown in the watch face list. Change it to yours. -->
+    <string id="AppName">My Watch Face</string>
+    <string id="AccentTitle">Accent colour</string>
+    <string id="Red">Red</string>
+    <string id="Blue">Blue</string>
+    <string id="Green">Green</string>
+    <string id="Orange">Orange</string>
+</strings>
